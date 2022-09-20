@@ -1,63 +1,46 @@
 import React from 'react';
-import { FaTeeth, FaGlobe , FaCog, FaSquare, FaSquareFull, FaSquarespace, FaStethoscope, FaHeartbeat, FaStar, FaMedal, FaPager, FaBook } from 'react-icons/fa';
 import Image from 'next/image';
-import ProdutoImg from '../public/assets/pr-img-1.png'
-
+import Link from 'next/link';
+import AboutImg from '../public/assets/about.png';
 
 const About = () => {
   return (
-    <div id='about' className='max-w-[1240px] py-10 mx-auto'>
-      <h2 className='text-center text-base sm:text-xl font-extrabold text-gray-700'>NOSSAS BASES PARA CRESCER</h2>
-      <h1 className='text-4xl font-black text-center p-4'>Quem é a Prado?</h1>
-      <div className='relative flex justify-center p-4'></div>
-      
-         <div className="flex flex-wrap items-center pt-0">
-            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
-              <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full px-0">
-                  <a
-                    href=""
-                    target="_blank"
-                  >
-                    <div className="bg-gradient-to-r from-[#770000] to-[#BD0000] shadow-lg rounded-lg p-2">
-                    <h1 className='text-white'><FaStar /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Qualidade
-                      </p>
-                    </div>
-                  </a>
-                  <a>
-                    <div className="bg-gradient-to-r from-[#770000] to-[#BD0000] shadow-lg rounded-lg p-2 mt-4">
-                    <h1 className='text-white'><FaMedal /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Credibilidade
-                      </p>
-                    </div>
-                    <div className="bg-gradient-to-r from-[#770000] to-[#BD0000] shadow-lg rounded-lg p-2 mt-4">
-                      <h1 className='text-white'><FaBook /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
-                       História
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                
-              </div>
-            </div>
-
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
-                <Image
-              	    src={ProdutoImg}
-              		alt='/'
-              		width='1239'
-              		height='960'
-              		className='cursor-pointer'
-            	/>
-            </div>
-          </div>
-          </div>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+        <div className='col-span-2'>
+          <p className='py-10 uppercase text-xl tracking-widest text-[#001E47]'>
+              Nossa História
+          </p>
+          <h2 className='py-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h2>
+          <p className='py-2 text-gray-600'>
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+          </p>
+          <p className='py-2 text-gray-600'>
+          et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+          sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem 
+          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          </p>
+          <p className='py-2 text-gray-600'>
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim 
+          ad minima veniam, quis nostrum exercitationem
+          </p>
+          <Link href='/#projects'>
+            <p className='py-2 text-gray-600 underline cursor-pointer'>
+              Confira alguns de nossos projetos.
+            </p>
+          </Link>
+        </div>
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+          <Image 
+            src={AboutImg}
+            width='500px'
+            height='750px' 
+            className='rounded-xl' 
+            alt='/' />
+        </div>
+      </div>
+    </div>
   );
 };
 
 export default About;
-

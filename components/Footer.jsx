@@ -30,11 +30,11 @@ function Footer() {
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-white font-bold text-2xl pb-4">Serviços</p>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<p className="text-white font-b800redold text-2xl pb-4">Serviços</p>
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							História
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							Missão
 						</li>
 					</ul>
@@ -42,19 +42,19 @@ function Footer() {
 				<div className="p-5">
 					<ul>
 						<p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							<Link href='/#about'>Quem é a Prado </Link>
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							<Link href='/gallery'>Como Fazemos?</Link>
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							<Link href='/#projects'>Como comprar?</Link>
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							<Link href='/#contact'>Nossa Loja Online</Link>
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
 							<Link href='/#contact'>Contatos</Link>
 						</li>
 					</ul>
@@ -64,7 +64,7 @@ function Footer() {
 			<div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
 				<h3 className=" text-gray-800 font-semibold">
 					© 2022 Prado Calçados | Todos os direitos reservados | Desenvolvido ❤ pela{" "}
-					<span className="hover:text-blue-600 font-semibold cursor-pointer">
+					<span className="hover:text-red-400 font-semibold cursor-pointer">
 						Sousas Midia{" "}
 					</span>
 				</h3>

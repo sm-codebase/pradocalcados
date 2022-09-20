@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
+import Present from '../components/Present'
+import HowWeDo from '../components/HowWeDo'
 import About from '../components/About'
 
 
@@ -15,6 +17,8 @@ export default function Home() {
       </Head>  
       <Main heading='BEM VINDO A PRADO CALÇADOS' message='Qualidade' message1='e Tradição'/> 
       <About />
+      <Present />
+      <HowWeDo /> 
     </div>
   )
 }

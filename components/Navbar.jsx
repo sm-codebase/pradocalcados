@@ -67,9 +67,9 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-        <div className='flex items-center justify-between my-5 w-full sm:w-[80%]'>
+        <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.facebook.com/atmartinscaldeiraria'
+                  href='https://www.facebook.com/botinasprado'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -78,7 +78,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://www.instagram.com/atmartinscaldeiraria/'
+                  href='https://www.instagram.com/botinasprado/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -99,10 +99,10 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/'>QUEM É A PRADO?</Link>
+              <Link href='/#about'>QUEM É A PRADO?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#about'>COMO FAZEMOS?</Link>
+              <Link href='/#howwedo'>COMO FAZEMOS?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
               <Link href='/gallery'>COMO COMPRAR?</Link>
