@@ -4,14 +4,14 @@ import Iframe from 'react-iframe'
 const Present = () => {
   return (
     <div id='projects' className='w-full pt-20'>
-      <section className="pt-20 pb-48">
+      <section className="pt-20 pb-48 bg-gradient-to-r from-[#770000] to-[#BD0000]">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Quem é a Prado?</h2>
-                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                Um pouco sobre a história de uma grande empresa de calçados de segurança, 
-                que chega para revolucionar o mercado, com agilidade e preço garantidos.
+                <p className='text-white font-thin'>Parceiros selecionados</p>
+                <h2 className="text-white text-4xl font-bold">Como comprar?</h2>
+                <p className="text-white font-thin leading-relaxed m-4 text-blueGray-500">
+                Desenvolvemos parceiria com as melhores empresas da região de Campinas
                 </p>
                 <div className='justify-center w-full h-full'>
               <Iframe 
