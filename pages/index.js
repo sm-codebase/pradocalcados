@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
-import Present from '../components/Present'
-import HowWeDo from '../components/HowWeDo'
-import About from '../components/About'
+import ComoComprar from '../components/ComoComprar'
+import QuemSomos from '../components/QuemSomos'
+import FaleComRepresentante from '../components/FaleComRepresentante'
+import Instagram from '../components/Instagram'
 
 
 export default function Home() {
@@ -16,9 +15,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
       <Main heading='BEM VINDO A PRADO CALÇADOS' message='Qualidade' message1='e Tradição'/> 
-      <About />
-      <Present />
-      <HowWeDo /> 
+      <QuemSomos />
+      <ComoComprar />
+      <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
+      <Instagram />
+      
+       
     </div>
   )
 }

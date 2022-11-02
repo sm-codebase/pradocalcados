@@ -1,9 +1,10 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 
-const Present = () => {
+
+const comoComprar = () => {
   return (
-    <div id='projects' className='w-full pt-20'>
+    <div id='como-comprar' className='w-full pt-20'>
       <section className="pt-20 pb-48 bg-gradient-to-r from-[#770000] to-[#BD0000]">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
@@ -32,4 +33,4 @@ const Present = () => {
   );
 };
 
-export default Present;
+export default comoComprar;
