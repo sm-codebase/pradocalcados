@@ -99,16 +99,16 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#about'>QUEM É A PRADO?</Link>
+              <Link href='/#quem-somos'>QUEM É A PRADO?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#howwedo'>COMO FAZEMOS?</Link>
+              <Link href='/#como-fazemos'>COMO FAZEMOS?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/gallery'>COMO COMPRAR?</Link>
+              <Link href='/#fale-com-rep'>COMO COMPRAR?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#projects'>NOSSA LOJA ONLINE</Link>
+              <Link href='/#loja-online'>NOSSA LOJA ONLINE</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
               <Link href='/contact'>CONTATOS </Link>
@@ -167,22 +167,22 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/#about'>
+              <Link href='/#quem-somos'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   QUEM É A PRADO?
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/#como-fazemos'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO FAZEMOS?
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/#como-comprar'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO COMPRAR?
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/#loja-online'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   NOSSA LOJA ONLINE
                 </li>

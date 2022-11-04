@@ -5,7 +5,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Main = ({heading, message, message1}) => {
   return (
-    <div id='/' className="w-full h-screen text-left bg-auto bg-no-repeat bg-right bg-white sm:bg-[url('/assets/bground.svg')]">
+    <div id='/' className="w-full h-screen text-left bg-auto bg-no-repeat bg-right bg-white sm:bg-opacity-50 sm:bg-[url('/assets/bground.svg')]">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-start items-center">
         <div>
             <p className='py-0 text-base sm:text-xl font-extrabold text-gray-700'>{heading}</p>
