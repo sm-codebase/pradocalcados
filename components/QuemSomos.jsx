@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaTeeth, FaGlobe , FaCog, FaSquare, FaSquareFull, FaSquarespace, FaStethoscope, FaHeartbeat, FaStar, FaMedal, FaPager, FaBook } from 'react-icons/fa';
-import Image from 'next/image';
+import Image from "next/image";
 import ProdutoImg from '../public/assets/pr-img-1.png'
 
 
 const quemSomos = () => {
   return (
-    <div id='howwedo' className='max-w-[1240px] py-10 mx-auto'>
+    <div id='howwedo' className='w-full h-screen max-w-[1240px] py-10 mx-auto'>
       <h2 className='text-center text-base sm:text-xl font-extrabold text-gray-700'>NOSSAS BASES PARA CRESCER</h2>
       <h1 className='text-4xl font-black text-center p-4'>Quem é a Prado?</h1>
       <div className='p-4'></div>
@@ -47,12 +47,15 @@ const quemSomos = () => {
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto">
                 <Image
-              	    src={ProdutoImg}
-              		alt='/'
-              		width='1239'
-              		height='960'
-              		className='cursor-pointer'
-            	/>
+                  src={ProdutoImg}
+                  alt='/'
+                  width='1239'
+                  height='960'
+                  className='cursor-pointer'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
             </div>
           </div>
           </div>

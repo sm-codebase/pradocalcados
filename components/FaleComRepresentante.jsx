@@ -1,7 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../public/assets/about.png';
+
 
 const faleComRepresentante = ({representante, repmessage, repmessage1}) => {
   return (

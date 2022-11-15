@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
@@ -54,8 +54,8 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-r from-[#770000] to-[#BD0000]'>
-        <Link href='/'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-r from-[#898A93] to-[#7A7375]'>
+        <Link legacyBehavior href='/'>
           <a>
             <Image
               src={NavLogo}
@@ -63,9 +63,12 @@ const Navbar = () => {
               width='170'
               height='70'
               className='cursor-pointer'
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </a>
-        </Link>
+        </Link >
         <div>
         <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
                 <a
@@ -73,7 +76,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#A92629]'>
+                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300from-[#898A93] to-[#7A7375]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -82,14 +85,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#A92629]'>
+                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
                     <FaInstagram />
                   </div>
                 </a>
-                <Link href='https://www.whatsapp.com/'>
+                <Link legacyBehavior href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#A92629]'
+                    className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'
                   >
                     <FaWhatsapp />
                   </div>
@@ -99,19 +102,19 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#about'>QUEM É A PRADO?</Link>
+              <Link legacyBehavior href='/#about'>QUEM É A PRADO?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#howwedo'>COMO FAZEMOS?</Link>
+              <Link legacyBehavior href='/#howwedo'>COMO FAZEMOS?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/gallery'>COMO COMPRAR?</Link>
+              <Link legacyBehavior href='/gallery'>COMO COMPRAR?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#projects'>NOSSA LOJA ONLINE</Link>
+              <Link legacyBehavior href='/#projects'>NOSSA LOJA ONLINE</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/contact'>CONTATOS </Link>
+              <Link legacyBehavior href='/contact'>CONTATOS </Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -136,20 +139,23 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-[#770000] to-[#BD0000] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-[#898A93] to-[#7A7375] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
+              <Link legacyBehavior href='/'>
                 <a>
                   <Image
                     src={NavLogo}
                     width='170'
                     height='70'
                     alt='/'
-                  />
+                    style={{
+                      maxWidth: "100%",
+                      height: "auto"
+                    }} />
                 </a>
               </Link>
               <div
@@ -167,27 +173,27 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/#about'>
+              <Link legacyBehavior href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   QUEM É A PRADO?
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link legacyBehavior href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO FAZEMOS?
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link legacyBehavior href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO COMPRAR?
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link legacyBehavior href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   NOSSA LOJA ONLINE
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link legacyBehavior href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   CONTATOS
                 </li>
@@ -203,7 +209,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#A92629]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -212,14 +218,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#A92629]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
                     <FaInstagram />
                   </div>
                 </a>
-                <Link href='https://www.whatsapp.com/'>
+                <Link legacyBehavior href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#A92629]'
+                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'
                   >
                     <FaWhatsapp />
                   </div>
