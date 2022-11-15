@@ -12,12 +12,12 @@ import InstagramImg from './InstagramImg'
 
 const instagram = () => {
   return (
-    <div id='social' className='w-full pt-20'>
+    <div id='social' className='w-full h-screen bg-gradient-to-r from-[#770000] to-[#BD0000]'>
         
-      <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center text-center mb-24">
-              <div className="w-full lg:w-6/12 px-4">
-                <p className='text-white font-thin'>Conte com a gente</p>
+      <div className="container mx-auto">
+            <div className="flex flex-wrap justify-center text-center">
+              <div className="w-full lg:w-6/12">
+                <p className='text-white font-thin mt-10'>Conte com a gente</p>
                 <h2 className="text-white text-4xl font-bold">#useprado</h2>
                 <p className="text-white font-thin leading-relaxed m-4 text-blueGray-500">
                 Desenvolvemos parceiria com as melhores empresas da região de Campinas
@@ -26,10 +26,11 @@ const instagram = () => {
             </div>
             
           </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-10">
           <div className='h-48 w-96'>
             <Carousel
             autoPlay
+            infiniteLoop={true}
             >
               <InstagramImg socialImg={IgImg1} />
               <InstagramImg socialImg={IgImg2} />
