@@ -102,16 +102,16 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link legacyBehavior href='/#about'>QUEM É A PRADO?</Link>
+              <Link href='/#about'>QUEM É A PRADO?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link legacyBehavior href='/#howwedo'>COMO FAZEMOS?</Link>
+              <Link href='/#howwedo'>COMO FAZEMOS?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link legacyBehavior href='/gallery'>COMO COMPRAR?</Link>
+              <Link href='/gallery'>COMO COMPRAR?</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link legacyBehavior href='/#projects'>NOSSA LOJA ONLINE</Link>
+              <Link href='/#projects'>NOSSA LOJA ONLINE</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
               <Link legacyBehavior href='/contact'>CONTATOS </Link>
@@ -173,22 +173,22 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link legacyBehavior href='/#about'>
+              <Link href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   QUEM É A PRADO?
                 </li>
               </Link>
-              <Link legacyBehavior href='/#about'>
+              <Link href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO FAZEMOS?
                 </li>
               </Link>
-              <Link legacyBehavior href='/#skills'>
+              <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   COMO COMPRAR?
                 </li>
               </Link>
-              <Link legacyBehavior href='/#projects'>
+              <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   NOSSA LOJA ONLINE
                 </li>

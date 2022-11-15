@@ -12,8 +12,8 @@ import InstagramImg from './InstagramImg'
 
 const instagram = () => {
   return (
-    <div id='social' className='w-full h-screen pt-2 bg-gradient-to-r from-[#770000] to-[#BD0000]'>
-        
+    <div id='social' className='w-full pt-20'>
+      <section className="pt-20 pb-48 bg-gradient-to-r from-[#770000] to-[#BD0000]">  
       <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -28,9 +28,7 @@ const instagram = () => {
           </div>
         <div className="flex justify-center">
           <div className='h-48 w-96'>
-            <Carousel
-              autoPlay
-            >
+            <Carousel>
               <InstagramImg socialImg={IgImg1} />
               <InstagramImg socialImg={IgImg2} />
               <InstagramImg socialImg={IgImg3} />
