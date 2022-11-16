@@ -54,7 +54,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-r from-[#898A93] to-[#7A7375]'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-l from-[#D9D9D9] to-[#7A7375]'>
         <Link legacyBehavior href='/'>
           <a>
             <Image
@@ -76,23 +76,20 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300from-[#898A93] to-[#7A7375]'>
+                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'>
                     <FaFacebook />
                   </div>
                 </a>
                 <a
-                  href='https://www.instagram.com/botinasprado/'
-                  target='_blank'
-                  rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
+                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link legacyBehavior href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-[#A92629]-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'
+                    className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'
                   >
                     <FaWhatsapp />
                   </div>
@@ -139,7 +136,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-[#898A93] to-[#7A7375] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-[#D9D9D9] to-[#7A7375] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -160,7 +157,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-[#A92629]-400 p-3 cursor-pointer text-white'
+                className='rounded-full shadow-lg p-3 cursor-pointer text-white'
               >
                 <AiOutlineClose />
               </div>
@@ -209,7 +206,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -218,14 +215,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link legacyBehavior href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#898A93] to-[#7A7375]'
+                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 from-[#D9D9D9] to-[#7A7375]'
                   >
                     <FaWhatsapp />
                   </div>

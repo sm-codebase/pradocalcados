@@ -10,19 +10,33 @@ import MainSlider from "./MainSlider";
 
 const Main = () => {
   return (
-    <div id='/' className='w-full h-screen'>
+    <div id="/">
+    <div className='w-full h-screen lg:hidden'>
       <div className='pt-10'>
             <Carousel
               autoPlay
               infiniteLoop={true}
             >
               <MainSlider sliderImg={SlImg1} />
-              <MainSlider sliderImg={SlImg2} />
-              <MainSlider sliderImg={SlImg3} />
-              <MainSlider sliderImg={SlImg4} />
+              
             </Carousel>
         </div>
       </div>
+      <div className='w-full h-screen hidden md:block'>
+        <div className='pt-10'>
+              <Carousel
+                autoPlay
+                infiniteLoop={true}
+              >
+                
+                <MainSlider sliderImg={SlImg2} />
+                <MainSlider sliderImg={SlImg3} />
+                <MainSlider sliderImg={SlImg4} />
+              </Carousel>
+          </div>
+      </div>
+    </div>
+      
     
   );
 };
