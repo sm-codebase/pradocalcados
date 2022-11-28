@@ -18,6 +18,7 @@
     "react-icons": "^4.4.0",
     "react-iframe": "^1.8.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-simple-card": "^2.0.2",
     "swiper": "^8.4.4"
   },
   "devDependencies": {

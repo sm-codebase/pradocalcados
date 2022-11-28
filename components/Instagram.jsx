@@ -27,7 +27,7 @@ const instagram = () => {
             
           </div>
         <div className="flex justify-center mt-10">
-          <div className='h-48 w-96'>
+          <div className='h-48 w-96 lg:[h-70]'>
             <Carousel
             autoPlay
             infiniteLoop={true}
