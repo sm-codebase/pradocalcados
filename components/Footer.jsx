@@ -23,43 +23,45 @@ function Footer() {
                                 height: "auto"
                             }} />
                     </a>
-                    <div className="flex justify-center gap-6 pb-5">
+                    <div className="flex justify-center gap-6 pb-5 pt-2">
                         <FaInstagram className="text-2xl text-white cursor-pointer hover:text-gray-300" />
                         <FaFacebook className="text-2xl text-white cursor-pointer hover:text-gray-300" />
                         <FaWhatsapp className="text-2xl text-white cursor-pointer hover:text-gray-300" />
                     </div>
                 </ul>
             </div>
-            <div className="p-5">
-                <ul>
-                    <p className="text-white font-b800redold text-2xl pb-4">Serviços</p>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        História
-                    </li>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        Missão
-                    </li>
-                </ul>
-            </div>
-            <div className="p-5">
-                <ul>
-                    <p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        <Link href='/#about'>Quem é a Prado </Link>
-                    </li>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        <Link href='/gallery'>Como Fazemos?</Link>
-                    </li>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        <Link href='/#projects'>Como comprar?</Link>
-                    </li>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        <Link href='/#contact'>Nossa Loja Online</Link>
-                    </li>
-                    <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                        <Link href='/#contact'>Contatos</Link>
-                    </li>
-                </ul>
+            <div className="text-center">
+                <div className="p-5">
+                    <ul>
+                        <p className="text-white font-bold text-2xl pb-4">Serviços</p>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            História
+                        </li>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            Missão
+                        </li>
+                    </ul>
+                </div>
+                <div className="p-5">
+                    <ul>
+                        <p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <Link href='/#about'>Quem é a Prado </Link>
+                        </li>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <Link href='/gallery'>Como Fazemos?</Link>
+                        </li>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <Link href='/#projects'>Como comprar?</Link>
+                        </li>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <Link href='/#contact'>Nossa Loja Online</Link>
+                        </li>
+                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <Link href='/#contact'>Contatos</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
             
         </div>

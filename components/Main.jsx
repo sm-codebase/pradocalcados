@@ -7,24 +7,24 @@ import SlImg3 from '../public/assets/sl-img-3.png'
 import SlImg4 from '../public/assets/sl-img-4.png'
 import MainSlider from "./MainSlider";
 import ProductsCarousel from "./ProductsCarousel";
+import Card from "./Card";
 
 
 const Main = () => {
   return (
-    <div id="/">
-    <div className='w-full h-screen lg:hidden'>
+    <div id="/" className="">
+    <div className='md:hidden'>
       <div className='pt-10'>
             <Carousel
               autoPlay
               infiniteLoop={true}
             >
-              <MainSlider sliderImg={SlImg1} />
-              
-            </Carousel>
-
+              <MainSlider sliderImg={SlImg1} />  
+            </Carousel>  
         </div>
+        
       </div>
-      <div className='w-full h-screen hidden md:block sm:block'>
+      <div className='hidden md:block sm:block'>
         <div className='pt-10'>
               <Carousel
                 autoPlay
@@ -33,12 +33,14 @@ const Main = () => {
                 <MainSlider sliderImg={SlImg2} />
                 <MainSlider sliderImg={SlImg3} />
                 <MainSlider sliderImg={SlImg4} />
-              </Carousel>
+              </Carousel>   
+          </div> 
 
-            
-            
-          </div>
       </div>
+      <div className="mt-6">
+                    <Card />
+            </div>
+                
     </div>
       
     

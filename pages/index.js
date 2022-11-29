@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
       <Main /> 
-      <QuemSomos />
+      
       <ComoComprar />
       <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
       <Instagram />

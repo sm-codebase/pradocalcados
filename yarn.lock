@@ -446,7 +446,7 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"classnames@^2.2.5", "classnames@^2.3.1":
+"classnames@^2.2.5", "classnames@^2.3.1", "classnames@^2.3.2":
   "integrity" "sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw=="
   "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
   "version" "2.3.2"
@@ -1733,10 +1733,10 @@
   dependencies:
     "prop-types" "^15.5.8"
 
-"react-icons@^4.4.0":
-  "integrity" "sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg=="
-  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.4.0.tgz"
-  "version" "4.4.0"
+"react-icons@^4.7.1":
+  "integrity" "sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.7.1.tgz"
+  "version" "4.7.1"
 
 "react-iframe@^1.8.0":
   "integrity" "sha512-NYi89+rEqREwQxW9sDf+akh6/dtwWd3bOjByoVEIQ7SicOxVawRMer3pLdWjFaHXpuxTB9NqobPf/Ohj2iAKkg=="
