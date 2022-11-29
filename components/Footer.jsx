@@ -1,36 +1,36 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
-import NavLogo from '../public/logo.svg'
+import NavLogo from '../public/logo.png'
 import Link from "next/link";
 
 
 
 function Footer() {
 	return <>
-        <div className="bg-gradient-to-r from-[#770000] to-[#BD0000] h-1/2 w-full sm:mt-52 flex md:flex-row flex-col justify-around items-start p-20">
+        <div className="bg-gradient-to-r from-[#D9D9D9] to-[#7A7375] h-1/2 w-full flex md:flex-row flex-col justify-around items-center">
             <div className="p-5 ">
                 <ul>
                     <a>
                         <Image
                             src={NavLogo}
                             alt='/'
-                            width='170'
-                            height='70'
+                            width='200'
+                            height='auto'
                             className='cursor-pointer'
                             style={{
                                 maxWidth: "100%",
                                 height: "auto"
                             }} />
                     </a>
-                    <div className="flex justify-center gap-6 pb-5 pt-2">
-                        <FaInstagram className="text-2xl text-white cursor-pointer hover:text-gray-300" />
-                        <FaFacebook className="text-2xl text-white cursor-pointer hover:text-gray-300" />
-                        <FaWhatsapp className="text-2xl text-white cursor-pointer hover:text-gray-300" />
+                    <div className="flex justify-center gap-6 pb-5 pt-4">
+                        <FaInstagram className="text-5xl text-white cursor-pointer hover:text-gray-300" />
+                        <FaFacebook className="text-5xl text-white cursor-pointer hover:text-gray-300" />
+                        <FaWhatsapp className="text-5xl text-white cursor-pointer hover:text-gray-300" />
                     </div>
                 </ul>
             </div>
-            <div className="text-center">
+            <div className="text-left">
                 <div className="p-5">
                     <ul>
                         <p className="text-white font-bold text-2xl pb-4">Serviços</p>

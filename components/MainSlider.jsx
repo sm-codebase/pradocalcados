@@ -5,7 +5,7 @@ import { FaInstagram, FaShoePrints } from 'react-icons/fa'
 
 const MainSlider= ({sliderImg}) => {
     return (
-        <div className='w-full h-screen"'>
+        <div className=''>
 
             <div>
                 <Image

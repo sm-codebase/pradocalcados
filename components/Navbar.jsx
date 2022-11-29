@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaFacebook, FaInstagram , FaWhatsapp } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/logo.svg'
+import NavLogo from '../public/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -64,7 +64,7 @@ const Navbar = () => {
               height='70'
               className='cursor-pointer'
               style={{
-                maxWidth: "100%",
+                maxWidth: "70%",
                 height: "auto"
               }} />
           </a>

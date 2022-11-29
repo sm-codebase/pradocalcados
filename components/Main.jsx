@@ -34,12 +34,11 @@ const Main = () => {
                 <MainSlider sliderImg={SlImg3} />
                 <MainSlider sliderImg={SlImg4} />
               </Carousel>   
-          </div> 
-
+          </div>  
       </div>
-      <div className="mt-6">
-                    <Card />
-            </div>
+      <div className="mb-10">
+      <Card />
+      </div>
                 
     </div>
       
