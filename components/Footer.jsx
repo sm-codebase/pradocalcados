@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Footer() {
 	return <>
-        <div className="bg-gradient-to-r from-[#D9D9D9] to-[#7A7375] h-1/2 w-full flex md:flex-row flex-col justify-around items-center">
+        <div className="bg-gradient-to-r from-[#D9D9D9] to-[#7A7375] h-1/2 w-full flex md:flex-row flex-col justify-around items-center pt-5">
             <div className="p-5 ">
                 <ul>
                     <a>
@@ -24,9 +24,9 @@ function Footer() {
                             }} />
                     </a>
                     <div className="flex justify-center gap-6 pb-5 pt-4">
-                        <FaInstagram className="text-5xl text-white cursor-pointer hover:text-gray-300" />
-                        <FaFacebook className="text-5xl text-white cursor-pointer hover:text-gray-300" />
-                        <FaWhatsapp className="text-5xl text-white cursor-pointer hover:text-gray-300" />
+                        <FaInstagram href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
+                        <FaFacebook href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
+                        <FaWhatsapp href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
                     </div>
                 </ul>
             </div>
@@ -34,10 +34,10 @@ function Footer() {
                 <div className="p-5">
                     <ul>
                         <p className="text-white font-bold text-2xl pb-4">Serviços</p>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             História
                         </li>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             Missão
                         </li>
                     </ul>
@@ -45,19 +45,19 @@ function Footer() {
                 <div className="p-5">
                     <ul>
                         <p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <Link href='/#about'>Quem é a Prado </Link>
                         </li>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <Link href='/gallery'>Como Fazemos?</Link>
                         </li>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <Link href='/#projects'>Como comprar?</Link>
                         </li>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <Link href='/#contact'>Nossa Loja Online</Link>
                         </li>
-                        <li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <Link href='/#contact'>Contatos</Link>
                         </li>
                     </ul>

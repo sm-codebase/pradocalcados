@@ -81,6 +81,9 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
+                  href='https://www.instagram.com/botinasprado/'
+                  target='_blank'
+                  rel='noreferrer'
                 >
                   <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
                     <FaInstagram />
