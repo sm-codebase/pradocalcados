@@ -15,7 +15,7 @@ function Footer() {
                         <Image
                             src={NavLogo}
                             alt='/'
-                            width='200'
+                            width='170'
                             height='auto'
                             className='cursor-pointer'
                             style={{
@@ -23,43 +23,53 @@ function Footer() {
                                 height: "auto"
                             }} />
                     </a>
-                    <div className="flex justify-center gap-6 pb-5 pt-4">
-                        <FaInstagram href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
-                        <FaFacebook href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
-                        <FaWhatsapp href='https://www.facebook.com/botinasprado' className="text-5xl text-white cursor-pointer hover:text-red-300" />
+                    <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
+                        <a
+                        href='https://www.facebook.com/botinasprado'
+                        target='_blank'
+                        rel='noreferrer'
+                        >
+                        <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
+                            <FaFacebook />
+                        </div>
+                        </a>
+                        <a
+                        href='https://www.instagram.com/botinasprado/'
+                        target='_blank'
+                        rel='noreferrer'
+                        >
+                        <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
+                            <FaInstagram />
+                        </div>
+                        </a>
+                        <Link legacyBehavior href='https://www.whatsapp.com/'>
+                        <div
+                            onClick={() => setNav(!nav)}
+                            className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'
+                        >
+                            <FaWhatsapp />
+                        </div>
+                        </Link>
                     </div>
                 </ul>
             </div>
             <div className="text-left">
                 <div className="p-5">
                     <ul>
-                        <p className="text-white font-bold text-2xl pb-4">Serviços</p>
                         <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            História
+                            <p className="text-white font-bold">Endereço:</p>
+                            <p className="text-sm font-light">Estamos na 📍 Rua Santo Antônio do jardim, 609 - Jd Santo Antonio - Mogi Guaçu SP</p>
                         </li>
                         <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            Missão
+                            <p>Contato:</p>
+                            <p className="text-sm font-light">19 98928277726</p>
+                            <p className="text-sm font-light">19 98928277726</p>
                         </li>
                     </ul>
                 </div>
                 <div className="p-5">
                     <ul>
-                        <p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <Link href='/#about'>Quem é a Prado </Link>
-                        </li>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <Link href='/gallery'>Como Fazemos?</Link>
-                        </li>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <Link href='/#projects'>Como comprar?</Link>
-                        </li>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <Link href='/#contact'>Nossa Loja Online</Link>
-                        </li>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <Link href='/#contact'>Contatos</Link>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

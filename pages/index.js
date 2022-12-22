@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Main from '../components/Main'
-import ComoComprar from '../components/ComoComprar'
-import QuemSomos from '../components/QuemSomos'
+import NossaHistoria from '../components/NossaHistoria'
 import FaleComRepresentante from '../components/FaleComRepresentante'
 import Instagram from '../components/Instagram'
 
@@ -15,8 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
       <Main /> 
-      
-      <ComoComprar />
+      <NossaHistoria/>
       <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
       <Instagram />
       

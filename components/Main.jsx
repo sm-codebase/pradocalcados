@@ -1,6 +1,9 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import React from 'react'
+import SlImgSm1 from '../public/assets/sl-img-sm-1.png'
+import SlImgSm2 from '../public/assets/sl-img-sm-2.png'
+import SlImgSm3 from '../public/assets/sl-img-sm-3.png'
 import SlImg1 from '../public/assets/sl-img-1.png'
 import SlImg2 from '../public/assets/sl-img-2.png'
 import SlImg3 from '../public/assets/sl-img-3.png'
@@ -19,7 +22,9 @@ const Main = () => {
               autoPlay
               infiniteLoop={true}
             >
-              <MainSlider sliderImg={SlImg1} />  
+              <MainSlider sliderImg={SlImgSm1} />  
+              <MainSlider sliderImg={SlImgSm2} />  
+              <MainSlider sliderImg={SlImgSm3} />  
             </Carousel>  
         </div>
         
@@ -30,6 +35,7 @@ const Main = () => {
                 autoPlay
                 infiniteLoop={true}
               >
+                <MainSlider sliderImg={SlImg1} />
                 <MainSlider sliderImg={SlImg2} />
                 <MainSlider sliderImg={SlImg3} />
                 <MainSlider sliderImg={SlImg4} />

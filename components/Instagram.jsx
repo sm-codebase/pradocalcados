@@ -17,7 +17,7 @@ const instagram = () => {
       <div className="container mx-auto">
             <div className="flex flex-wrap justify-center text-center">
               <div className="w-full lg:w-6/12">
-                <p className='text-white font-thin mt-10'>Conte com a gente</p>
+                <p className='text-white font-thin mt-10'>conte com a gente</p>
                 <h2 className="text-white text-4xl font-bold">#useprado</h2>
                 <p className="text-white font-thin leading-relaxed m-4 text-blueGray-500">
                 Desenvolvemos parceiria com as melhores empresas da região de Campinas

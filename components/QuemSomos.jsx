@@ -6,7 +6,7 @@ import ProdutoImg from '../public/assets/pr-img-1.png'
 
 const quemSomos = () => {
   return (
-    <div id='howwedo' className='max-w-[1240px] mx-auto'>
+    <div id='quemsomos' className='max-w-[1240px] mx-auto'>
       <h2 className='text-center text-base sm:text-xl font-extrabold text-gray-700'>NOSSAS BASES PARA CRESCER</h2>
       <h1 className='text-4xl font-black text-center p-4'>Quem é a Prado?</h1>
       <div className='p-4'></div>
