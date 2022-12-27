@@ -6,6 +6,7 @@ import { FaFacebook, FaInstagram , FaWhatsapp } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/logo.png'
+import { Button } from "react-bootstrap";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -58,7 +59,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-l from-[#D9D9D9] to-[#7A7375]'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-b from-[#D9D9D9] to-[#7A7375]'>
         <Link legacyBehavior href='/'>
           <a>
             <Image
@@ -93,20 +94,23 @@ const Navbar = () => {
                     <FaInstagram />
                   </div>
                 </a>
-                <Link legacyBehavior href='https://www.whatsapp.com/'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'
-                  >
-                    <FaWhatsapp />
+                <a  
+                  href='https://wa.link/lmeph0'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
+                            <FaWhatsapp />
                   </div>
-                </Link>
+                </a>
               </div>
         </div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <button className="p-3" href='/#falecomrepresentante'>Fale conosco</button>
+            <button className='p-3'>
+                <Link href='https://wa.link/lmeph0'>Fale Agora</Link>
+              </button>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -136,7 +140,7 @@ const Navbar = () => {
                             <Link href='/#nossa-historia'>Nossa Hitória</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/#fale-com-representante'>Fale Conosco</Link>
+                            <Link href='/#fale-com-representante'>Fale Conosco</Link>   
                         </li>
                     </ul>
                 </div>
