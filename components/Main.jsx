@@ -18,10 +18,17 @@ const Main = () => {
     <div id="/" className="">
     <div className='md:hidden'>
       <div className='pt-10'>
-            <Carousel
-              autoPlay
-              infiniteLoop={true}
-            >
+      <Carousel
+          autoPlay={true}
+          showArrows={false}
+          infiniteLoop={true}
+          interval={5000}
+          stopOnHover={false}
+          showThumbs={false}
+          showStatus={false}
+          showIndicators={false}
+          swipeable={false}
+        >
               <MainSlider sliderImg={SlImgSm1} />  
               <MainSlider sliderImg={SlImgSm2} />  
               <MainSlider sliderImg={SlImgSm3} />  
@@ -31,10 +38,17 @@ const Main = () => {
       </div>
       <div className='hidden md:block sm:block'>
         <div className='pt-10'>
-              <Carousel
-                autoPlay
-                infiniteLoop={true}
-              >
+        <Carousel
+          autoPlay={true}
+          showArrows={false}
+          infiniteLoop={true}
+          interval={5000}
+          stopOnHover={false}
+          showThumbs={false}
+          showStatus={false}
+          showIndicators={false}
+          swipeable={false}
+        >
                 <MainSlider sliderImg={SlImg1} />
                 <MainSlider sliderImg={SlImg2} />
                 <MainSlider sliderImg={SlImg3} />
