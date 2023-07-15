@@ -14,9 +14,9 @@ import Card from "./Card";
 
 const Main = () => {
   return (
-    <div id="/" className="">
+    <div id="/" className="pt-10">
       <div className="md:hidden">
-        <div className="pt-10">
+        <div className="">
           <Carousel
             autoPlay={true}
             showArrows={false}
@@ -35,7 +35,7 @@ const Main = () => {
         </div>
       </div>
       <div className="hidden md:block sm:block">
-        <div className="pt-10">
+        <div className="">
           <Carousel
             autoPlay={true}
             showArrows={false}
