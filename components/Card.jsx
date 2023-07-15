@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div className="mx-auto px-20">
         <div >
-            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3" >
+            <div className="p-4 grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3" >
                 <div className="p-6 bg-gradient-to-r from-[#770000] to-[#BD0000] rounded-lg">
                     <div className="text-white text-left hover:text-center">
                         <h1 className='pb-2'><FaStar /></h1>
