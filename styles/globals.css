@@ -31,7 +31,7 @@ html {
   }
 
   button {
-    @apply rounded-xl uppercase bg-gradient-to-r from-[#770000] to-[#BD0000] text-white
+    @apply rounded-xl uppercase bg-gradient-to-r from-[#000000] to-[#000000] text-white
   }
 }
 
