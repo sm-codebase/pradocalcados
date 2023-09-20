@@ -5,7 +5,7 @@ import { FaInstagram, FaShoePrints } from 'react-icons/fa'
 
 const MainSlider= ({sliderImg}) => {
     return (
-        <div className="mt-20 carousel-slide pt-5">
+        <div className="mt-20 carousel-slide md:pt-5">
 
             <div>
                 <Image
