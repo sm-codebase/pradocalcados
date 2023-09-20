@@ -21,7 +21,7 @@ const Main = () => {
             autoPlay={true}
             showArrows={false}
             infiniteLoop={true}
-            interval={5000}
+            interval={8000}
             stopOnHover={false}
             showThumbs={false}
             showStatus={false}
@@ -40,7 +40,7 @@ const Main = () => {
             autoPlay={true}
             showArrows={false}
             infiniteLoop={true}
-            interval={5000}
+            interval={8000}
             stopOnHover={false}
             showThumbs={false}
             showStatus={false}
