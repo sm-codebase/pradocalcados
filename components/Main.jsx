@@ -34,8 +34,8 @@ const Main = () => {
           </Carousel>
         </div>
       </div>
-     
-        <div className="lg:hidden md:hidden">
+      <div className="hidden md:block sm:block">
+        <div className="">
           <Carousel
             autoPlay={true}
             showArrows={false}
@@ -52,7 +52,7 @@ const Main = () => {
             <MainSlider sliderImg={SlImg3} />
             <MainSlider sliderImg={SlImg4} />
           </Carousel>
-    
+        </div>
       </div>
       <div className="mb-10">
         <Card />
