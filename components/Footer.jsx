@@ -7,7 +7,7 @@ import NavLogo from '../public/logo.png'
 
 function Footer() {
 	return <>
-        <div className="bg-gradient-to-b from-[#D9D9D9] to-[#7A7375] h-1/2 w-full flex md:flex-row flex-col justify-around items-center pt-5">
+        <div className="bg-white h-1/2 w-full flex md:flex-row flex-col justify-around items-center pt-5 border-4">
             <div className="p-5 ">
                 <ul>
                     <a>
@@ -28,7 +28,7 @@ function Footer() {
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
+                        <div className='text-2xl rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
                             <FaFacebook />
                         </div>
                         </a>
@@ -37,7 +37,7 @@ function Footer() {
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
+                        <div className='text-2xl rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
                             <FaInstagram />
                         </div>
                         </a>
@@ -46,7 +46,7 @@ function Footer() {
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'
+                        <div className='text-2xl rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'
                         >
                             <FaWhatsapp />
                         </div>
@@ -57,11 +57,11 @@ function Footer() {
             <div className="text-left">
                 <div className="p-5">
                     <ul>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
-                            <p className="text-white font-bold">Endereço:</p>
+                        <li className="text-black text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                            <p className="font-bold">Endereço:</p>
                             <p className="text-sm font-light">Estamos na 📍 Rua Santo Antônio do Jardim, 609 <br /> Jd Santo Antonio - Mogi Guaçu SP</p>
                         </li>
-                        <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
+                        <li className="text-black text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <p>Contato:</p>
                             <p href='https://wa.link/lmeph0' className="text-sm font-light pt-2"><FaWhatsapp />19 99825-6810</p>
                             <p className="font-light pt-2"><FaPhone />19 3891-8298</p>
