@@ -14,14 +14,14 @@ import Card from "./Card";
 
 const Main = () => {
   return (
-    <div id="/" className="pt-10">
+    <div id="/" className="">
       <div className="md:hidden">
         <div className="">
           <Carousel
             autoPlay={true}
             showArrows={false}
             infiniteLoop={true}
-            interval={5000}
+            interval={8000}
             stopOnHover={false}
             showThumbs={false}
             showStatus={false}
@@ -40,7 +40,7 @@ const Main = () => {
             autoPlay={true}
             showArrows={false}
             infiniteLoop={true}
-            interval={5000}
+            interval={8000}
             stopOnHover={false}
             showThumbs={false}
             showStatus={false}
