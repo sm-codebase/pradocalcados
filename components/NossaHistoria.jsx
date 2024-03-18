@@ -12,7 +12,7 @@ const NossaHistoria = () => {
                 <p className='text-white font-thin'>como tudo começou</p>
                 <h2 className="text-white text-4xl font-bold">Nossa história</h2>
                 <p className="text-white font-thin leading-relaxed m-4 text-blueGray-500">
-                Ao longo desses 28 anos de história construimos um parceirias sólidas e um produto de qualidade que já faz parte do dia-a-dia de nossos clientes
+                Ao longo desses 28 anos de história construímos parcerias sólidas e um produto de qualidade que já faz parte do dia-a-dia de nossos clientes
                 </p>
                 <div className='justify-center w-full h-full'>
               <Iframe 
