@@ -14,7 +14,7 @@ import Card from "./Card";
 
 const Main = () => {
   return (
-    <div id="/" className="pt-10">
+    <div id="/" className="">
       <div className="md:hidden">
         <div className="">
           <Carousel
